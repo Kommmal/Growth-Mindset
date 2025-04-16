@@ -1,6 +1,6 @@
 import streamlit as st
 import random
-import quotes as quotes
+from quotes import quotes
 
 # Page title
 st.set_page_config(page_title="Growth Mindset App", page_icon="🌱")
