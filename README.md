@@ -20,7 +20,6 @@ This project is part of the **Growth Mindset Challenge** to inspire students to:
 ## 🔧 Built With
 
 - [Streamlit](https://streamlit.io/) – Python framework for building interactive web apps
-- [Pandas](https://pandas.pydata.org/) – To display sample growth progress chart
 
 ---
 
