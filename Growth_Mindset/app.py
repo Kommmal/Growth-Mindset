@@ -46,8 +46,7 @@ if name:
 
     # Motivation Quote of the Day
     st.header("💬 Quote of the Day")
-    quote = quotes[random.randint(1, 100)]
-    st.info(random.choice(quote))
+    st.info(random.choice(quotes))
 
     # Footer
     st.markdown("---")
