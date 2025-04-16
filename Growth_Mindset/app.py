@@ -48,9 +48,7 @@ if name:
     st.header("💬 Quote of the Day")
     st.info(random.choice(quotes))
 
-    # Footer
-    st.markdown("---")
-    st.caption("Made with ❤️ using Streamlit | Keep believing in yourself!")
+
 
 else:
     st.warning("Please enter your name to begin.")
