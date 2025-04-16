@@ -1,5 +1,6 @@
 import streamlit as st
 import random
+import quotes as quotes
 
 # Page title
 st.set_page_config(page_title="Growth Mindset App", page_icon="🌱")
@@ -45,13 +46,8 @@ if name:
 
     # Motivation Quote of the Day
     st.header("💬 Quote of the Day")
-    quotes = [
-        "Every expert was once a beginner.",
-        "Your brain is like a muscle—the more you use it, the stronger it gets.",
-        "Success comes from effort, not just talent.",
-        "Keep trying. Keep learning. Keep growing.",
-    ]
-    st.info(random.choice(quotes))
+    quote = quotes[random.randint(1, 100)]
+    st.info(random.choice(quote))
 
     # Footer
     st.markdown("---")
